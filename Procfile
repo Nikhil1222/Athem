@@ -1,0 +1,1 @@
+Worker: node ./example/index.js

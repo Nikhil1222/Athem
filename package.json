@@ -1,0 +1,79 @@
+{
+  "name": "discord-dynamic-music-bot-addon",
+  "version": "2.1.9",
+  "description": "Music bot addon for bot",
+  "types": "./dist/YoutubePlayer.d.ts",
+  "main": "./dist/YoutubePlayer.js",
+  "keywords": [
+    "discord",
+    "music",
+    "addon",
+    "extension",
+    "plugin",
+    "opus",
+    "youtube",
+    "lidcer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lidcer/DiscordDynamicMusicBotAddon"
+  },
+  "bugs": {
+    "email": "thelidcer@gmail.com",
+    "url": "https://github.com/Lidcer/DiscordDynamicMusicBotAddon/issues"
+  },
+  "homepage": "https://github.com/Lidcer",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest -w",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "node ./example/index.js",
+    "dev": "nodemon --inspect --trace-warnings ./example/index.js"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.9.0"
+  },
+  "files": [
+    "dist",
+    "LICENCE.md"
+  ],
+  "author": "Lidcer",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "0.2.1",
+    "discord.js": "12.2.0",
+    "get-video-id": "3.1.4",
+    "lodash": "4.17.15",
+    "opusscript": "0.0.7",
+    "prism-media": "1.2.1",
+    "simple-youtube-api": "5.2.1",
+    "ytdl-core": "2.1.1",
+    "ytpl": "0.1.20",
+    "ytsr": "0.1.13"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.6.8",
+    "@types/ws": "^7.2.3",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/*",
+      "node_modules/*"
+    ]
+  }
+}
