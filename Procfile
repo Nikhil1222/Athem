@@ -1,1 +1,1 @@
-Worker: node ./example/index.js
+Worker: node ./example/config.example.json
