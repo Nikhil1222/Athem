@@ -1,4 +1,4 @@
 {
-    "DISCORD_TOKEN": "",
+    "DISCORD_TOKEN": "https://discord.com/api/oauth2/authorize?client_id=781060880670523432&permissions=8&scope=bot",
     "YOUTUBE_API_KEY": ""
 }
